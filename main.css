@@ -6,7 +6,7 @@
 */
 
 a:link, a:visited {
-	color: blue;
+	color: white;
 }
 
 a:focus, a:hover {
@@ -42,9 +42,16 @@ header {
 }
 
 main {
-
+	background-color: rgb(231, 146, 161);
+	color: white;
 }
-
+aside {
+	background-color: red;
+	color: white;
+}
+nav {
+	background-color: green;
+}
 p {
 	line-height: 140%;
 	margin-bottom: 1em;
@@ -59,7 +66,7 @@ p {
 }
 
 #footer-container {
-	background-color: blue;
+	background-color: lightblue;
 	color: white;
 	text-align: center;
 	padding: 20px;
@@ -67,7 +74,7 @@ p {
 }
 
 #header-container {
-	background-color: blue;
+	background-color: orange;
 	color: white;
 	padding: 20px;
 	grid-column: 1 / -1;
