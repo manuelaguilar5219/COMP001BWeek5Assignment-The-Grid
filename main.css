@@ -59,7 +59,7 @@ p {
 }
 
 #footer-container {
-	background-color: #4CAF50;
+	background-color: blue;
 	color: white;
 	text-align: center;
 	padding: 20px;
@@ -67,7 +67,7 @@ p {
 }
 
 #header-container {
-	background-color: #4CAF50;
+	background-color: blue;
 	color: white;
 	padding: 20px;
 	grid-column: 1 / -1;
