@@ -6,7 +6,7 @@
 */
 
 a:link, a:visited {
-	color: white;
+	color: white; /* Changed color to white from blue */
 }
 
 a:focus, a:hover {
@@ -42,15 +42,15 @@ header {
 }
 
 main {
-	background-color: rgb(231, 146, 161);
-	color: white;
+	background-color: rgb(231, 146, 161); /* Mage background color for the main a pinkish color */
+	color: white; /* Made text color white*/
 }
-aside {
-	background-color: red;
-	color: white;
+aside { /* Added styling to aside element */
+	background-color: red; /* Mage background color for the aside a red color */
+	color: white; /* Made text color white*/
 }
-nav {
-	background-color: green;
+nav { /* Added styling to nav element */
+	background-color: green; /* Made background color for the nav green */
 }
 p {
 	line-height: 140%;
@@ -66,27 +66,27 @@ p {
 }
 
 #footer-container {
-	background-color: lightblue;
-	color: white;
-	text-align: center;
-	padding: 20px;
-	grid-column: 1 / -1;
+	background-color: lightblue; /* Set the background to lightblue */
+	color: white; /* set the text color to white */
+	text-align: center; /* Aligned text to center */
+	padding: 20px; /* Added 20 pixels of padding */
+	grid-column: 1 / -1; /* Spans the #footer-container in a grid layout from the first to last column */
 }
 
 #header-container {
-	background-color: orange;
-	color: white;
-	padding: 20px;
-	grid-column: 1 / -1;
+	background-color: orange; /* Set the background to Orange */
+	color: white; /* set the text color to white */
+	padding: 20px; /* Added 20 pixels of padding */
+	grid-column: 1 / -1;  /* Spans the #header-container in a grid layout from the first to last column */
 	
 }
 
 #main-container {
-	display: grid;
-	grid-template-areas: 
-		"nav main aside";
-	grid-template-columns: 1fr 2fr 1fr;
-	gap: 10px;
-	padding: 10px;
-	width: 100%;
+	display: grid; /* Makes a grid container */
+	grid-template-areas: /* This specifies the areas within the grid */
+		"nav main aside"; /* The areas within the grid will be arranged in a single row going by nav, main, and aside */
+	grid-template-columns: 1fr 2fr 1fr; /* Defines the width of each column in the grid the nav and aside will be (1fr) and the main will be (2fr) */
+	gap: 10px; /* Set a 10-pixel gap between the grid items, both rows and columns */
+	padding: 10px; /* Added 10 pixels of padding */
+	width: 100%; /* Set the width to 100% */
 }
